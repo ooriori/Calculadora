@@ -1,7 +1,18 @@
-fn main() {
-    let a = 5;
-    let b = 3;
-    let result = a + b;
+fn sumar(a: i32, b: i32) -> i32 {
+    a + b
+}
 
-    println!("The sum of {} + {} is: {}", a, b, result);
+fn restar(a: i32, b: i32) -> i32 {
+    a - b
+}
+
+fn main() {
+    let a = 10;
+    let b = 4;
+
+    let resultado_suma = sumar(a, b);
+    let resultado_resta = restar(a, b);
+
+    println!("La suma de {} + {} es: {}", a, b, resultado_suma);
+    println!("La resta de {} - {} es: {}", a, b, resultado_resta);
 }
