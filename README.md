@@ -1,3 +1,16 @@
+# Calculadora en Rust
+
+Este es un proyecto simple de calculadora hecho en Rust.
+
+## Cómo probarla
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/ooriori/Calculadora.git
+
+
+
+
 # Calculadora Básica en Rust
 
 Este proyecto es una calculadora simple escrita en Rust que suma dos números fijos y muestra el resultado.
