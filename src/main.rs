@@ -3,5 +3,5 @@ fn main() {
     let b = 3;
     let result = a + b;
 
-    println!("la suma de {} + {} es: {} ", a, b, result);
+    println!("The sum of {} + {} is: {}", a, b, result);
 }
